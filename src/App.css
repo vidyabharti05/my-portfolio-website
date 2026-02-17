@@ -1,9 +1,10 @@
-
+/* ===== Global Styles ===== */
 body {
-  margin: 0px;
+  margin: 0;
   font-family: Arial, sans-serif;
 }
-/* Navbar container */
+
+/* ===== Navbar ===== */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -15,7 +16,6 @@ body {
   z-index: 1000;
 }
 
-/* Logo */
 .logo {
   font-size: 24px;
   font-weight: 700;
@@ -26,7 +26,6 @@ body {
   color: #38bdf8;
 }
 
-/* Nav links */
 .navbar-links {
   list-style: none;
   display: flex;
@@ -45,6 +44,8 @@ body {
   color: #2141e2;
   text-decoration: underline;
 }
+
+/* ===== Hero Section ===== */
 .hero {
   min-height: 90vh;
   display: flex;
@@ -64,58 +65,67 @@ body {
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
-.hero p {
-  font-size: 18px;
-  color: #555;
-}
-
 .hero h1 {
   font-size: 48px;
   margin: 10px 0;
- color: #1a237e;
+  color: #1a237e;
 }
 
 .hero h3 {
   font-size: 24px;
   color: #6c63ff;
 }
-.socials{
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+}
+
+.socials {
   margin-top: 20px;
   display: flex;
   gap: 20px;
 }
-.socials{
+
+.socials a {
   text-decoration: none;
   color: #6c63ff;
   font-weight: 600;
   border-bottom: 2px solid transparent;
   transition: 0.3s;
 }
-.socials a:hover{
+
+.socials a:hover {
   border-bottom: 2px solid #6c63ff;
 }
-/*about */
-.about{
+
+/* ===== About Section ===== */
+.about {
   min-height: 60vh;
-  padding: 60px 20px;
-  background-color:  linear-gradient(135deg, #f8f9ff, #eef1ff);
+  padding: 80px 40px;
   text-align: center;
+  background: linear-gradient(135deg, #f8f9ff, #eef1ff);
 }
-.about h2{
+
+.about h2 {
   font-size: 36px;
   margin-bottom: 20px;
   color: #1a237e;
 }
-.about-text{
+
+.about-text {
   max-width: 750px;
   margin: 0 auto 40px;
-  font-size:18px;
+  font-size: 18px;
   line-height: 1.8;
   color: #555;
 }
+
 .about-cards {
   display: flex;
   justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -140,17 +150,12 @@ body {
   color: #333;
   font-size: 16px;
 }
-.about, .projects, .contact,.Skills{
-  text-align: center;
-  padding: 80px;
-}
-/*projects*/
+
+/* ===== Projects Section ===== */
 .projects {
   min-height: 90vh;
-  padding: 70px 20px;
+  padding: 80px 40px;
   text-align: center;
-
-  /* SAME background as Hero & About */
   background: linear-gradient(135deg, #f8f9ff, #eef1ff);
 }
 
@@ -189,6 +194,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .project-buttons a {
@@ -210,10 +216,11 @@ body {
 .project-buttons a:hover {
   transform: scale(1.05);
 }
-/*project details */
+
+/* ===== Project Detail ===== */
 .project-detail {
   min-height: 90vh;
-  padding: 80px 20px;
+  padding: 80px 40px;
   text-align: center;
   background: linear-gradient(135deg, #f8f9ff, #eef1ff);
 }
@@ -247,13 +254,12 @@ body {
   background: #6c63ff;
   color: white;
 }
+
 /* ===== Skills Section ===== */
-
-
 .skills-section {
   min-height: 70vh;
   padding: 80px 10%;
-  background:  linear-gradient(135deg, #e0f7fa, #e3f2fd, #f3e5f5);
+  background: linear-gradient(135deg, #e0f7fa, #e3f2fd, #f3e5f5);
   text-align: center;
   color: #fff;
 }
@@ -265,7 +271,6 @@ body {
   color: #1a237e;
 }
 
-/* Buttons layout */
 .skills-list {
   display: flex;
   flex-wrap: wrap;
@@ -273,7 +278,6 @@ body {
   gap: 25px;
 }
 
-/* Button */
 .skills-list button {
   background: rgba(255, 255, 255, 0.08);
   border: none;
@@ -284,7 +288,6 @@ body {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 }
 
-/* Link inside button */
 .skills-list button a {
   text-decoration: none;
   color: #1a237e;
@@ -293,33 +296,17 @@ body {
   letter-spacing: 1px;
 }
 
-/* Hover effect */
 .skills-list button:hover {
   transform: translateY(-8px) scale(1.05);
   background: rgba(255, 255, 255, 0.18);
   box-shadow: 0 18px 35px rgba(0, 0, 0, 0.6);
 }
 
-/* Text color on hover */
 .skills-list button:hover a {
   color: #00e6ff;
 }
 
-/* Mobile responsive */
-@media (max-width: 600px) {
-  .skills-section h2 {
-    font-size: 2.2rem;
-    color: #1a237e;
-  }
-
-  .skills-list button {
-    padding: 14px 25px;
-    
-  }
-}
-/* ---contact ---*/
 /* ===== Contact Section ===== */
-
 .contact {
   min-height: 70vh;
   padding: 80px 10%;
@@ -331,14 +318,12 @@ body {
   justify-content: center;
 }
 
-
 .contact h2 {
   font-size: 3rem;
   margin-bottom: 30px;
   letter-spacing: 2px;
 }
 
-/* Contact Info Box */
 .contact p {
   font-size: 1.2rem;
   margin: 12px 0;
@@ -355,15 +340,88 @@ body {
   cursor: pointer;
 }
 
-/* Hover Effect */
 .contact p:hover {
   transform: translateY(-6px) scale(1.05);
   background: rgba(0, 0, 0, 0.05);
   color: #1976d2;
 }
 
-/* Mobile Responsive */
-@media (max-width: 600px) {
+/* ===== Media Queries for Responsive ===== */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 20px;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .hero img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero h3 {
+    font-size: 20px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .about-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about, .projects, .contact, .Skills {
+    padding: 40px 20px;
+  }
+
+  .skills-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .skills-list button {
+    padding: 14px 28px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 480px) {
+  .projects {
+    padding: 40px 15px;
+  }
+
+  .project-card {
+    padding: 20px;
+  }
+
+  .skills-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .skills-list button {
+    padding: 12px 20px;
+  }
+
   .contact h2 {
     font-size: 2.2rem;
   }

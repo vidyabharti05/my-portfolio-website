@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/vidyabharti05/portfolio-website.git"
+    "deploy": "gh-pages -d dist -r https://github.com/vidyabharti05/my-portfolio-website.git"
+
   },
   "dependencies": {
     "react": "^19.2.0",
