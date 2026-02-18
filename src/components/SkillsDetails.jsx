@@ -1,3 +1,5 @@
+import { useParams, Link } from "react-router-dom";
+
 const skillData = {
   python: {
     title: "Python",
@@ -64,3 +66,20 @@ updates, and basic application logic.
 `
   }
 };
+function SkillsDetails() {
+  const { skillName } = useParams();
+  const skill = skillData[skillName];
+
+  if (!skill) return <h2>Skill not found</h2>;
+  
+
+  return (
+    <div style={{ padding: "80px", textAlign: "center" }}>
+      <h1>{skill.title}</h1>
+      <p style={{ whiteSpace: "pre-line" }}>{skill.description}</p>
+      <Link to="/">⬅ Back</Link>
+    </div>
+  );
+}
+
+export default SkillsDetails;

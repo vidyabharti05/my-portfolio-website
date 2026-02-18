@@ -1,17 +1,18 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Skills() {
-  return (
+  const navigate = useNavigate();
+   return (
     <section id="skills" className="skills-section">
       <h2>Skills</h2>
 
       <div className="skills-list">
-        <button><Link to="/skills/python">Python</Link></button>
-        <button><Link to="/skills/sql">SQL</Link></button>
-        <button><Link to="/skills/react">React</Link></button>
-        <button><Link to="/skills/html">HTML</Link></button>
-        <button><Link to="/skills/css">CSS</Link></button>
-        <button><Link to="/skills/javascript">JavaScript</Link></button>
+        <button onClick={() => navigate("/skills/python")}>Python</button>
+        <button onClick={() => navigate("/skills/sql")}>SQL</button>
+        <button onClick={() => navigate("/skills/react")}>React</button>
+        <button onClick={() => navigate("/skills/html")}>HTML</button>
+        <button onClick={() => navigate("/skills/css")}>CSS</button>
+        <button onClick={() => navigate("/skills/javascript")}>JavaScript</button>
       </div>
     </section>
   );

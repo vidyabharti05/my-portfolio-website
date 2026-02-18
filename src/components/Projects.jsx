@@ -34,7 +34,7 @@ function Projects() {
         <div className="project-card">
           <h3>My-portfolio-website</h3>
           <div className="project-buttons">
-            <a href="https://github.com/vidyabharti05/gym-registration" target="_blank">GitHub</a>
+            <a href="https://vidyabharti05.github.io/my-portfolio-website/" target="_blank">GitHub</a>
             <Link to="/project/my-portfolio-website">Description</Link>
           </div>
         </div>
