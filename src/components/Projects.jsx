@@ -8,6 +8,14 @@ function Projects() {
       <div className="project-grid">
 
         <div className="project-card">
+          <h3>Noori_beauty_parlor</h3>
+          <div className="project-buttons">
+            <a href="https://vidyabharti05.github.io/Noori_beauty_parlor/" target="_blank">GitHub</a>
+            <Link to="/project/noori_beauty_parlor">Description</Link>
+          </div>
+        </div>
+
+        <div className="project-card">
           <h3>EveryDay Task</h3>
           <div className="project-buttons">
             <a href="https://vidyabharti05.github.io/EveryDayTask/" target="_blank">GitHub</a>
@@ -32,7 +40,7 @@ function Projects() {
         </div>
 
         <div className="project-card">
-          <h3>My-portfolio-website</h3>
+          <h3>My-portfolio-website (React)</h3>
           <div className="project-buttons">
             <a href="https://vidyabharti05.github.io/my-portfolio-website/" target="_blank">GitHub</a>
             <Link to="/project/my-portfolio-website">Description</Link>

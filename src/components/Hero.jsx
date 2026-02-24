@@ -3,6 +3,7 @@ import profileImg from "./image.png";
 
 function Hero() {
   return (
+    <div className="hero-wrap">
     <section className="hero">
       <img src={profileImg} alt="profile" />
       <div>
@@ -17,6 +18,7 @@ function Hero() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
 

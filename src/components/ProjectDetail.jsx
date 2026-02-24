@@ -1,6 +1,19 @@
 import { useParams, Link } from "react-router-dom";
 
 const projectData = {
+
+ "noori_beauty_parlor": {
+  title: "Noori Beauty Parlor Website",
+  description: `
+Noori Beauty Parlor is a responsive and visually appealing website designed
+to showcase beauty services, offers, and contact details in a clear and
+user-friendly manner. This project highlights practical skills in frontend
+development, focusing on clean layout, smooth navigation, and modern UI
+design to enhance the overall user experience.
+`,
+  tech: "HTML, CSS, JavaScript"
+ },
+
   "everyday-task": {
     title: "EveryDay Task",
     description: `

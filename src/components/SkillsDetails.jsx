@@ -77,7 +77,7 @@ function SkillsDetails() {
     <div style={{ padding: "80px", textAlign: "center" }}>
       <h1>{skill.title}</h1>
       <p style={{ whiteSpace: "pre-line" }}>{skill.description}</p>
-      <Link to="/">⬅ Back</Link>
+      <Link to="/" className="back-btn">⬅ Back</Link>
     </div>
   );
 }

@@ -11,12 +11,14 @@ import SkillsDetails from "./components/SkillsDetails";
 function Home() {
   return (
     <>
+    <div className="site-wrapper">
       <Navbar />
       <Hero />
       <About />
       <Projects />
       <Skills />
       <Contact />
+      </div>
     </>
   );
 }
