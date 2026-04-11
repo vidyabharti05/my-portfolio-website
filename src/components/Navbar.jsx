@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="logo">Vidya bharti</h2>
+      <h2 className="logo">Vidya Bharti</h2>
       <ul className="navbar-links">
         <li><a href="#Hero">Hero</a></li>
         <li><a href="#about">About</a></li>

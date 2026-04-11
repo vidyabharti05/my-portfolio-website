@@ -18,7 +18,7 @@ function Projects() {
         <div className="project-card">
           <h3>EveryDay Task</h3>
           <div className="project-buttons">
-            <a href="https://vidyabharti05.github.io/EveryDayTask/" target="_blank">GitHub</a>
+            <a href="https://vidyabharti05.github.io/EveryDaytask/" target="_blank">GitHub</a>
             <Link to="/project/everyday-task">Description</Link>
           </div>
         </div>
@@ -44,14 +44,6 @@ function Projects() {
           <div className="project-buttons">
             <a href="https://vidyabharti05.github.io/my-portfolio-website/" target="_blank">GitHub</a>
             <Link to="/project/my-portfolio-website">Description</Link>
-          </div>
-        </div>
-
-        <div className="project-card">
-          <h3>Prediction (python)</h3>
-          <div className="project-buttons">
-            <a href="https://vidyabharti05.github.io/prediction/" target="_blank">GitHub</a>
-            <Link to="/project/prediction">Description</Link>
           </div>
         </div>
 

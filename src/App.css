@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  overflow-x: hidden;   /* 🔥 MOST IMPORTANT */
+  overflow-x: hidden;   /* MOST IMPORTANT */
 }
 
 /* Navbar container */ 
@@ -18,7 +18,8 @@ body {
   background: #0f172a; 
   position: sticky; 
   top: 0; 
-  z-index: 1000; } 
+  z-index: 100; 
+} 
   /* Logo */ 
   .logo { font-size: 24px; 
     font-weight: 700; 
@@ -33,15 +34,19 @@ body {
   .navbar-links li a { text-decoration: none; 
     color: #cbd5e1; 
     font-size: 16px; 
-    transition: 0.3s ease; } 
-  .navbar-links li a:hover { color: #2141e2; 
-    text-decoration: underline; } 
-  .hero { min-height: 85vh; 
+    transition: 0.3s ease; 
+  } 
+  .navbar-links li a:hover { 
+    color: #2141e2; 
+    text-decoration: underline; 
+  } 
+  .hero { 
+    min-height: 85vh; 
     display: flex; 
     justify-content: center;
     align-items: center; 
     gap: 60px; 
-    padding: 40px; 
+    padding: 40px ; 
     background: linear-gradient(135deg, #f8f9ff, #eef1ff); }
   .hero img { width: 260px; 
     height: 260px; 
@@ -74,7 +79,7 @@ body {
     transition: 0.3s; } 
   .socials a:hover{ border-bottom: 2px solid #6c63ff; }
   /*about */ 
-  .about{ min-height: 75vh; 
+  .about{ min-height: 90vh; 
     padding: 60px 20px; 
     background-color: linear-gradient(135deg, #f8f9ff, #eef1ff); 
     text-align: center; } 
@@ -106,7 +111,7 @@ body {
   .projects { min-height: 90vh; 
     padding: 70px 20px; 
     text-align: center; /* SAME background as Hero & About */ 
-    background: linear-gradient(135deg, #f8f9ff, #eef1ff); } 
+    background: linear-gradient(135deg, #f8f9ff85, #eef1ff7c); } 
   .projects h2 { font-size: 38px; 
     margin-bottom: 50px; 
     color: #1a237e; } 
@@ -212,6 +217,30 @@ body {
   font-size: 2.2rem; 
   color: #1a237e; } 
 .skills-list button { padding: 14px 25px; } 
+.skill-container {
+  padding: 100px;
+  text-align: center;
+}
+
+.skill-title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.skill-description {
+  max-width: 700px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
 /* ===== Contact Section ===== */ 
 .contact { 
   min-height: 70vh; 
@@ -250,7 +279,7 @@ body {
 .contact p { font-size: 1rem; padding: 12px 20px; }
 
 /* ========================= */
-/* 📱 MOBILE & TABLET FIX */
+/*  MOBILE & TABLET FIX */
 /* ========================= */
 
 @media (max-width: 992px) {
@@ -336,7 +365,7 @@ body {
   }
 }
 
-/* 📱 EXTRA SMALL MOBILE */
+/*  EXTRA SMALL MOBILE */
 @media (max-width: 480px) {
 
   .hero {
@@ -354,3 +383,6 @@ body {
     font-size: 14px;
   }
 }
+/* =====================*/
+/* In dark mode */
+/* ====================*/

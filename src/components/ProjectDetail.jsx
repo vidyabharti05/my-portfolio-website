@@ -5,11 +5,13 @@ const projectData = {
  "noori_beauty_parlor": {
   title: "Noori Beauty Parlor Website",
   description: `
-Noori Beauty Parlor is a responsive and visually appealing website designed
-to showcase beauty services, offers, and contact details in a clear and
-user-friendly manner. This project highlights practical skills in frontend
-development, focusing on clean layout, smooth navigation, and modern UI
-design to enhance the overall user experience.
+  Noori Beauty Parlor is a responsive and visually appealing website designed 
+  to showcase beauty services, special offers, and contact information in a clear
+  and user-friendly manner. The project focuses on delivering a clean layout, 
+  smooth navigation, and an engaging modern UI to enhance the overall user experience.
+
+Through this project, I applied frontend development concepts to build a real-world 
+business website, ensuring responsiveness across different devices and improving usability.
 `,
   tech: "HTML, CSS, JavaScript"
  },
@@ -63,15 +65,7 @@ skills, and passion for web development.
     tech: "React, CSS"
   },
 
-  "prediction": {
-    title: "Prediction System (Python)",
-    description: `
-A Python-based prediction system that analyzes data patterns to generate
-meaningful predictions. This project reflects my interest in data science
-and my ability to apply analytical thinking to real-world problems.
-`,
-    tech: "Python, Data Analysis"
-  },
+  
 
   "calculator": {
     title: "Calculator Application",

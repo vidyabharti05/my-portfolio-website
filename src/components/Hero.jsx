@@ -3,13 +3,13 @@ import profileImg from "./image.png";
 
 function Hero() {
   return (
-    <div className="hero-wrap">
+  <div className="hero-wrap">
     <section className="hero">
       <img src={profileImg} alt="profile" />
       <div>
-        <p>Hello, I'm</p>
-        <h1>vidya bharti</h1>
-        <h3>Frontend Developer</h3>
+        <h1>Hello, I'm Vidya Bharti</h1>
+        <h3>Frontend Developer | Data Science Learner</h3>
+        <h3>I build interactive & smart web apps</h3>
 
         <div className="socials">
         <a href="https://github.com/vidyabharti05" target="_blank"> <FaGithub />  GitHub</a>
@@ -18,7 +18,7 @@ function Hero() {
         </div>
       </div>
     </section>
-    </div>
+  </div>
   );
 }
 

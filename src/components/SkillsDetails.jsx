@@ -74,10 +74,10 @@ function SkillsDetails() {
   
 
   return (
-    <div style={{ padding: "80px", textAlign: "center" }}>
-      <h1>{skill.title}</h1>
-      <p style={{ whiteSpace: "pre-line" }}>{skill.description}</p>
-      <Link to="/" className="back-btn">⬅ Back</Link>
+    <div className="skill-container">
+      <h1 className="skill-title">{skill.title}</h1>
+      <p className="skill-description">{skill.description}</p>
+      <Link to="/" className="back-btn">Back to</Link>
     </div>
   );
 }
